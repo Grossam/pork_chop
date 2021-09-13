@@ -1,54 +1,64 @@
 # Pork Chops
 
-This mod adds typically french products known as "charcuterie" and mainly base on dried and salted pork.
+![Hungry Dog](screenshot.jpg "Proper screenshot coming soon")
+
+This mod adds typically french products known as "charcuterie" and mainly based on dried and salted pork.
 
 ## TODO
 
-Avec la viande de cochon:
+Check what already exists and complete depends.conf file (Pumba should be used as a pig ?) :
 
-  salaisons (séchoir a viande ?)
+|item|mod|
+|---|---|
+|oil||
+|pork meat||
+|salt||
+|pepper||
+|chili pepper||
+|garlic||
+|onion||
+|egg||
+|bread||
 
-  [ x] graisse / huile pour le four
+We'll need pork leg and pork gut : modify the pumba's drops ?
 
-  [ x] viande crue
+### Create items/food 
 
-  [ x] Sel
+About rooms : the pickles mod implements the possibility of modifying an item built in a specially designed room.
 
-  [ x] poivre
+|name|register_item|textures|model|
+|---|---|---|---|
+|salting room ?||||
+|smokehouse ?||||
+|herbs||||
+|stuffing||||
+|ham||||
+|moutnain ham||||
+|sliced ham||||
+|sausage||||
+|dried sausage||||
+|stuffed potatoe||||
+|stuffed tomatoe||||
+|ham sandwich||||
+|andouillette||||
 
-  [ x] piments (poivrons ?)
-
-  fines herbes
-
-  chair à paté
-
-  jambon de pays (pour faire sandwiches)
-
-  jambons blanc (pour faire sandwiches)
-
-  saucice sèche
-
-  saucisse de toulouse
-
-  knaki
-
-  justin bridou (trouver un alias rigolo)
+Justin Bridou (trouver un alias rigolo)
 
 exemple de craft : (ne pas oublier de faire des craft avec maxi 9 ingredients
-   la farce
-      chair a paté
-      oeuf
-      pain
-      sel
-      poivre
+  la farce
+    chair a paté
+    oeuf
+    pain
+    sel
+    poivre
   la pomme de terre farcie
-       farce
-      pomme de terre
+    farce
+    pomme de terre
   la cuisson
 
 ## Licence
 
-
+CC0
 
 ## Versions
 
@@ -56,11 +66,11 @@ exemple de craft : (ne pas oublier de faire des craft avec maxi 9 ingredients
 |---|---|---|
 |0.0|2021-09-09|Git repo created|
 
-## Credtis
+## Credits
 
 |File name|Author|Licence|url|
 |---|---|---|---|
-|example.ogg|John Doe|CC0|johndoe.net|
+|hungry Dog|rover.com|CC0|rover.com|
 
 
 
